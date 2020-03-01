@@ -54,15 +54,6 @@ for c in contours:
     else:
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 0), -1)
 
-   # rect = cv2.minAreaRect(c)
-    # box = cv2.boxPoints(rect)
-    # box = np.int0(box)
-    # cv2.drawContours(img, [box], 0, (0, 0, 255))
-
-    # (x, y), radius = cv2.minEnclosingCircle(c)
-    # center = (int(x), int(y))
-    # radius = int(radius)
-    # img = cv2.circle(img, center, radius, (255, 0, 0), 2)
 
 print("Total Counter of box :-  ")
 print(len(contours))
