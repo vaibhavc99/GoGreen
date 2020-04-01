@@ -2,7 +2,7 @@ from PIL import Image, ImageFilter, ImageEnhance
 import cv2
 import numpy as np
 
-image = Image.open('jalgaoncenter.jpg')
+image = Image.open('london_ground.jpg')
 width, height = image.size
 if (width == 1280 and height == 720):
     # Mask Image
